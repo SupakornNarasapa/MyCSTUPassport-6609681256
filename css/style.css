@@ -32,6 +32,30 @@
         font-style: italic;
         font-weight: bold;
     }
+    #p3 {
+	color: white;
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+    }
+    #p4 {
+	color: white;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    #p5 {
+	color: white;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #p6 {
+	color: white;
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+    }
     .button1 {
         background-color: transparent;
         border: 0px;
@@ -56,3 +80,8 @@
         height: 500px;
         margin: 0px;
     }
+    #img-cir {
+  	border-radius: 50%;
+    }
+    #a-pw {
+         color: white;
