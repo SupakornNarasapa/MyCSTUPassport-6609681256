@@ -21,6 +21,7 @@
         font-family: cursive;
     }
     #p1 {
+	text-align: center;
         color: black;
         font-size: 27px;
         font-weight: bold;
@@ -57,16 +58,17 @@
         font-weight: bold;
     }
     .button1 {
-        background-color: transparent;
-        border: 0px;
+        background: none;
+        border: none;
         color: black;
-        padding: 10px 40px;
+        padding: 10px 110px;
+	margin: 5px;
         font-weight: bold;
         font-size: 30px;
         text-align: center;
         text-decoration: white;
-        display: inline-block;
         transition-duration: 0.4s;
+	cursor: pointer;
      }
      a:link {
          color: blue;
@@ -76,12 +78,46 @@
      }
      .cover {
         object-fit: cover;    
-        width: 200px;
-        height: 500px;
+        width: 50%;
+        height: 50%;
         margin: 0px;
-    }
-    #img-cir {
+     }
+     #img-cir {
   	border-radius: 50%;
-    }
-    #a-pw {
-         color: white;
+     }
+     #a-pw {
+        color: white;
+     }
+     .content {
+        padding: 20px;
+	text-align: center;
+     }
+     .content2 {
+	display: flex;
+	flex-wrap: wrap;
+        justify-content: space-around;
+     }
+     img {
+        max-width: 100%;
+        height: auto;
+	align-content: center;
+     }
+     marquee {
+        font-size: 2vw;
+     }  
+     video {
+        max-width: 100%;
+        height: auto;
+     }
+     header {
+    	text-align: center;
+  	background: aqua;
+  	color: blue;
+  	font-size: 40px;
+     }
+     footer {
+    	text-align: center;
+  	background: aqua;
+  	color: blue;
+  	font-size: 30px;
+     }
