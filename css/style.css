@@ -121,3 +121,23 @@
   	color: blue;
   	font-size: 30px;
      }
+     @media only screen and (max-width: 768px) {
+	 body {
+    		font-size: 14px;
+ 	 }
+  	.content {
+    		padding: 10px;
+ 	 }
+     }
+     @media only screen and (max-width: 480px) {
+  	body {
+    		font-size: 12px;
+  	 }
+  	.content {
+    		padding: 5px;
+     }
+
+  	.content2 {
+    		display: block;
+  	 }
+     }
